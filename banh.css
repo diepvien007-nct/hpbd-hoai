@@ -254,31 +254,34 @@ body::after {
   #giftBtn {
     font-size: 1.2rem;
     padding: 15px 25px;
-    top: 50%;
+    top: 45%;
     left: 50%;
     border-radius: 10px;
   }
 
   #hbdText {
-    bottom: 160px;
+    top: 25%;
+    bottom: auto;
     font-size: 1.5em;
     padding: 10px;
   }
 
   .slider {
-    width: 80px;
-    height: 100px;
+    width: 100px;
+    height: 120px;
+    top: 40%;
   }
 
   .slider .item {
     transform: rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-               translateZ(120px);
+               translateZ(140px);
   }
 
   .cake {
-    width: 140px;
-    height: 140px;
-    bottom: 40px;
+    width: 160px;
+    height: 160px;
+    top: 55%;
+    bottom: auto;
   }
 }
 
@@ -287,30 +290,33 @@ body::after {
   #giftBtn {
     font-size: 1rem;
     padding: 12px 20px;
+    top: 40%;
   }
 
   #hbdText {
-    bottom: 130px;
+    top: 22%;
+    bottom: auto;
     font-size: 1.2em;
     padding: 10px;
     width: 90%;
   }
 
   .slider {
-    width: 70px;
-    height: 80px;
-    top: 15%;
+    width: 90px;
+    height: 110px;
+    top: 38%;
   }
 
   .slider .item {
     transform: rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-               translateZ(100px);
+               translateZ(125px);
   }
 
   .cake {
-    width: 100px;
-    height: 100px;
-    bottom: 30px;
+    width: 120px;
+    height: 120px;
+    top: 58%;
+    bottom: auto;
   }
 }
 
@@ -319,25 +325,31 @@ body::after {
   #giftBtn {
     font-size: 0.9rem;
     padding: 10px 15px;
+    top: 38%;
   }
 
   #hbdText {
-    bottom: 100px;
+    top: 18%;
+    bottom: auto;
     font-size: 1em;
+    padding: 8px;
   }
 
   .slider {
-    width: 60px;
-    height: 70px;
+    width: 80px;
+    height: 95px;
+    top: 36%;
   }
 
   .slider .item {
     transform: rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-               translateZ(80px);
+               translateZ(110px);
   }
 
   .cake {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
+    top: 60%;
+    bottom: auto;
   }
 }
